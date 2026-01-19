@@ -15,12 +15,17 @@ public class InputOutput {
         // Example 1: Reading a Integer
         System.out.print("Enter an integer: "); // Input
         int num = sc.nextInt(); 
-        System.out.print("You entered: " + num); // Output
+        System.out.println("You entered: " + num); // Output
 
         // Example 2: Reading a double
         System.out.print("Enter a decimal number: ");
         double decimal = sc.nextDouble();
-        System.out.print("You entered: " + decimal);
+        System.out.println("You entered: " + decimal);
+
+        //Example 3: Reading a string (single word)
+        System.out.print("Enter a word: ");
+        String word = sc.next();
+        System.out.println("You entered: " + word);
 
         // Always close Scanner to free resources
         sc.close();
