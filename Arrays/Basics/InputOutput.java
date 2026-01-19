@@ -27,6 +27,24 @@ public class InputOutput {
         String word = sc.next();
         System.out.println("You entered: " + word);
 
+        // Example 4: Reading entire line (including spaces)
+        sc.nextLine(); // Clear the buffer
+        System.out.print("Enter a sentence: ");
+        String sentence = sc.nextLine();
+        System.out.println("You entered: " + sentence);
+       
+        // Example 5: Reading array of integers
+        System.out.print("Enter 5 integers (separated by space): ");
+        int[] arr = new int[5];
+        for (int i = 0; i < 5; i++) {
+            arr[i] = sc.nextInt();
+        }
+        System.out.println("Array: ");
+        for (int num1 : arr) {
+            System.out.print(num1 + " ");
+        }
+        System.out.println();
+
         // Always close Scanner to free resources
         sc.close();
     }
