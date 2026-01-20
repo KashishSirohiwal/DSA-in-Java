@@ -26,6 +26,10 @@ public class if_else {
         System.out.println("\n--- Method 4: Ternary Operator ---");
         method4_ternaryOperator(sc);
 
+        // Method 5: Switch Statement
+        System.out.println("\n--- Method 5: Switch Statement ---");
+        method5_switchStatement(sc);
+
         sc.close();
     }
     
@@ -83,7 +87,7 @@ public class if_else {
             System.out.println("Must be 18+ to apply for contest");
         }
     }
-    
+
     /* METHOD 4: Ternary Operator : Shorthand for simple if-else */
     public static void method4_ternaryOperator(Scanner sc) {
         System.out.print("Enter a number: ");
@@ -100,6 +104,52 @@ public class if_else {
         // Finding max of two numbers
         int max = (num > 100) ? num : 100;
         System.out.println("Max: " + max);
+    }
+
+    /* METHOD 5: Switch Statement */
+    public static void method5_switchStatement(Scanner sc) {
+        System.out.print("Enter day number (1-7): ");
+        int day = sc.nextInt();
+
+        // Traditiotnal switch
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid day number");
+        }
+       
+        // Java 14+ Switch Expression (more concise)
+        String dayName = switch (day) {
+            case 1 -> "Monday";
+            case 2 -> "Tuesday";
+            case 3 -> "Wednesday";
+            case 4 -> "Thursday";
+            case 5 -> "Friday";
+            case 6 -> "Saturday";
+            case 7 -> "Sunday";
+            default -> "Invalid day";
+        };
+        System.out.println("Using Switch Expression: " + dayName);
     }
 }
 
