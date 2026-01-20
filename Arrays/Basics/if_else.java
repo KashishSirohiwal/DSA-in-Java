@@ -18,6 +18,10 @@ public class if_else {
         System.out.println("\n--- Method 2: if-else if-else Chain ---");
         method2_ifElseIfChain(sc);
         
+        // Method 3: Nested if-else
+        System.out.println("\n--- Method 3: Nested if-else ---");
+        method3_nestedIfElse(sc);
+
         sc.close();
     }
     
@@ -51,6 +55,28 @@ public class if_else {
             System.out.println("Grade F - Failed");
         } else {
             System.out.println("Invalid grade");
+        }
+    }
+
+    public static void method3_nestedIfElse(Scanner sc) {
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
+        System.out.print("Enter your rank: ");
+        int rank = sc.nextInt();
+
+        // Nested 
+        if (age >= 18) {
+            if (rank >= 65) {
+                if (age >=24) {
+                    System.out.println("Eligible for premium contest");
+                } else {
+                    System.out.println("Eligible for standard contest");
+                }
+            } else {
+                System.out.println("Rank incompatible for contest");
+            }
+        } else {
+            System.out.println("Must be 18+ to apply for contest");
         }
     }
 }
