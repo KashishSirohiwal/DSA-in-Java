@@ -22,6 +22,10 @@ public class if_else {
         System.out.println("\n--- Method 3: Nested if-else ---");
         method3_nestedIfElse(sc);
 
+        // Method 4: Ternary Operator (Shorthand)
+        System.out.println("\n--- Method 4: Ternary Operator ---");
+        method4_ternaryOperator(sc);
+
         sc.close();
     }
     
@@ -58,13 +62,13 @@ public class if_else {
         }
     }
 
+    /* METHOD 3: Nested if-else */
     public static void method3_nestedIfElse(Scanner sc) {
         System.out.print("Enter your age: ");
         int age = sc.nextInt();
         System.out.print("Enter your rank: ");
         int rank = sc.nextInt();
 
-        // Nested 
         if (age >= 18) {
             if (rank >= 65) {
                 if (age >=24) {
@@ -78,6 +82,24 @@ public class if_else {
         } else {
             System.out.println("Must be 18+ to apply for contest");
         }
+    }
+    
+    /* METHOD 4: Ternary Operator : Shorthand for simple if-else */
+    public static void method4_ternaryOperator(Scanner sc) {
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+
+         // Ternary operator instead of if-else
+        String result = (num > 0) ? "Positive" : "Not Positive";
+        System.out.println("Result: " + result);
+       
+        // Nested ternary (use carefully - can be confusing)
+        String grade = (num >= 80) ? "A" : (num >= 60) ? "B" : "C";
+        System.out.println("Grade: " + grade);
+       
+        // Finding max of two numbers
+        int max = (num > 100) ? num : 100;
+        System.out.println("Max: " + max);
     }
 }
 
