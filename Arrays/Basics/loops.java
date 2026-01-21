@@ -38,5 +38,13 @@ public class loops {
         for(;;) {
             System.out.println("Infinite");
         } */
+
+        System.out.println("\n--- While Loop ---");
+        int n = 5; // Initialization
+        while(n > 1) { // Condition
+            System.out.print(n + " ");
+            n--; // Update
+        }
+        System.out.println("\nAccessible outside loop : " + n);
     }
 }
