@@ -11,7 +11,7 @@ package Arrays.Basics;
                          Otheriwse cause infinite loop.
 */
 
-public class loops {
+public class Loops {
     public static void main(String[] args) {
         System.out.println("--- For Loop ---");
         System.out.println("1. Basic for loop");
