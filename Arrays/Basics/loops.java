@@ -18,9 +18,8 @@ public class loops {
         for(int i=1; i<=5; i++) {
             System.out.print(i + " ");
         }
-        System.out.println();
 
-        System.out.println("\n2. Multiple variables");
+        System.out.println("\n\n2. Multiple variables");
         for(int i = 0, j = 10; i < j; i++, j--) {
             System.out.println(i + " " + j);
         }
@@ -31,9 +30,8 @@ public class loops {
             System.out.print(i + " ");
             i++;
         }
-        System.out.println();
 
-        System.out.println("\n4. Infinite for loop");
+        System.out.println("\n\n4. Infinite for loop");
         /* It is infinte, so avoid it
         for(;;) {
             System.out.println("Infinite");
@@ -41,10 +39,25 @@ public class loops {
 
         System.out.println("\n--- While Loop ---");
         int n = 5; // Initialization
-        while(n > 1) { // Condition
+        while(n >= 1) { // Condition
             System.out.print(n + " ");
             n--; // Update
         }
         System.out.println("\nAccessible outside loop : " + n);
+
+        System.out.println("\n--- Do-While Loop ---");
+        System.out.println("1. Simple do-while loop");
+        int n1 = 5;
+        do { 
+            System.out.print(n1 + " ");
+            n1--;
+        } while(n1 >= 1);
+
+        System.out.println("\n\n2. Runs once when condition - false");
+        int n2 = 5;
+        do {
+            System.out.println(n2);
+            n2--;
+        } while(n2 < 1); // Here condition fails but still 5 is printed
     }
 }
