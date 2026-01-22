@@ -18,7 +18,7 @@ public class ReverseNumber {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number : ");
         int num = sc.nextInt();
-        int result = reverseno(num); // Math.abs turns no into positive
+        int result = reverseno(num);
         System.out.println("The reverse of " + num + " is : " + result);
         sc.close();
     }
