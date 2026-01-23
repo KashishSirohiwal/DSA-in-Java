@@ -1,4 +1,4 @@
-package Arrays.Basics;
+package Basics;
 
 public class Functions {
     public static void void_function() {

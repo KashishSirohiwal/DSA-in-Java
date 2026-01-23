@@ -1,4 +1,4 @@
-package Arrays.Practice;
+package Basics.Questions_Practice;
 import java.util.*;
 
 public class SumOfDigits {

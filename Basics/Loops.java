@@ -1,4 +1,4 @@
-package Arrays.Basics;
+package Basics;
 
 /* 
 - In programming, a loop is a control flow structure used to execute a block 
