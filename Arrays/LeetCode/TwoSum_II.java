@@ -1,4 +1,4 @@
-import Arrays.LeetCode;
+package Arrays.LeetCode;
 import java.util.Scanner;
 
 public class TwoSum_II {
