@@ -7,7 +7,7 @@ public class ReverseString {
         char[] charArr = str.toCharArray();
         int s = 0, e = charArr.length - 1;
         while (s<e) {
-             int temp = charArr[s];
+            int temp = charArr[s];
             charArr[s] = charArr[e];
             charArr[e] = (char) temp;
             s++;
