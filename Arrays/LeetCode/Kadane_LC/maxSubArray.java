@@ -1,4 +1,4 @@
-package Arrays.LeetCode;
+package Arrays.LeetCode.Kadane_LC;
 import java.util.Scanner;
 
 /*
