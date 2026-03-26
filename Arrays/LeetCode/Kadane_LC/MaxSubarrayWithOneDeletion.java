@@ -1,4 +1,4 @@
-package Arrays.Kadane_Algo;
+package Arrays.LeetCode.Kadane_LC;
 
 /*
 Problem: Maximum Subarray Sum with One Deletion

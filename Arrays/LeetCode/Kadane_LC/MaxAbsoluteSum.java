@@ -1,4 +1,4 @@
-package Arrays.Kadane_Algo;
+package Arrays.LeetCode.Kadane_LC;
 
 /*
 Problem: Maximum Absolute Sum of Any Subarray
