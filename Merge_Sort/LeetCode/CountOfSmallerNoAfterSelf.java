@@ -32,7 +32,7 @@ Time Complexity:
   - There are log n levels of recursion due to merge sort.
   - Each merge step takes O(n) time to count and merge.
   - Overall: O(n log n)
-  
+
 Space Complexity: O(n)
 */
 
