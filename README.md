@@ -1,43 +1,152 @@
-# **DSA in Java**
+# Data Structures and Algorithms in Java
 
-Hi, I'm Kashish 👋
+Hi, I'm Kashish.
 
-This repository documents my structured journey of learning and practicing
-Data Structures and Algorithms using Java.
+This repository documents my journey of learning and practicing Data Structures and Algorithms using Java.
 
-The primary focus is on building strong fundamentals, writing clean implementations,
-and developing a deep understanding of problem-solving patterns.
+The goal is to build strong problem-solving skills, develop algorithmic thinking, and gain a deeper understanding of fundamental computer science concepts through consistent practice and implementation.
 
-## Learning Approach
+---
 
-- Concept-first learning (not pattern memorization)
-- Clean and well-structured implementations
-- Practice + re-implementation for stronger retention
-- Time & space complexity awareness
-- Progressive difficulty based growth
+## Learning Philosophy
 
-## Topics Covered
+I follow a concept-first approach rather than memorizing patterns or solutions.
 
-- Java Fundamentals for DSA
-- Time and Space Complexity (Big-O basics)
-- Arrays (traversal, two pointers, fundamental problems)
-- Recursion
-  - Void recursion
-  - Return-based recursion
-  - Recursion on arrays
-- Strings (basic problem solving)
+My focus is on:
+
+* Understanding the intuition behind algorithms
+* Writing clean and readable code
+* Strengthening problem-solving fundamentals
+* Analyzing time and space complexity
+* Learning through implementation and practice
+* Revisiting concepts for long-term retention
+
+---
+
+## Topics Explored
+
+### Java Fundamentals
+
+* Input and Output
+* Loops
+* Functions
+* Basic Problem Solving
+
+### Mathematical Foundations
+
+* Prime Numbers
+* Factors and Divisors
+* Perfect Numbers
+* Number Theory Basics
+* Digit Manipulation Problems
+
+### Arrays
+
+* Traversal
+* Searching
+* Two Pointers
+* Fundamental Problem Solving
+
+### Strings
+
+* Character Manipulation
+* Frequency Counting
+* String Processing Problems
+
+### Sorting Algorithms
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+* Quick Sort
+* Java Built-in Sorting
+
+### Binary Search
+
+* Standard Binary Search
+* Search Space Reduction
+* Binary Search Variations
+
+### Hashing
+
+* HashMap
+* HashSet
+* Frequency Counting
+* Lookup Optimization
+
+### Recursion
+
+* Basic Recursion
+* Return-Based Recursion
+* Void Recursion
+* Recursion on Arrays
+* Backtracking Fundamentals
+
+---
+
+## Current Focus
+
+Currently exploring recursion and recursive problem-solving techniques.
+
+Key areas include:
+
+* Recursive thinking
+* Recursion trees
+* Return-based recursion
+* Void recursion
+* Backtracking fundamentals
+* Time and space complexity analysis
+
+The concepts learned here will serve as a foundation for future topics such as Trees, Graphs, Backtracking, and Dynamic Programming.
+
+---
+
+## Upcoming Areas
+
+* Linked Lists
+* Stack
+* Queue
+* Trees
+* Binary Search Trees
+* Heap
+* Graphs
+* Dynamic Programming
+
+---
+
+## Repository Structure
+
+```text
+Basics/
+Math/
+Arrays/
+Strings/
+Bubble_Sort/
+Selection_Sort/
+Insertion_Sort/
+Merge_Sort/
+Quick_Sort/
+Java_Built_In_Sorting/
+Binary_Search/
+Hashing/
+Recursion/
+```
+
+Each directory contains implementations, practice problems, and topic-specific exercises.
+
+---
 
 ## Practice Platforms
 
-- LeetCode
-- Self-implemented fundamental problems
+* LeetCode
+* Self-Implemented Problems
+* Concept Reinforcement Exercises
 
-## Upcoming Focus Areas
+---
 
-- Advanced array techniques
-- Prefix sum
-- Sliding window
-- Kadane’s algorithm
-- Subarrays and subsequences
+## Note
 
-**This repository is actively maintained and updated as I progress.**
+This repository is actively maintained and updated as I continue learning Data Structures and Algorithms.
+
+The objective is not merely to collect solutions, but to develop a deeper understanding of algorithms, data structures, and problem-solving techniques through consistent study and implementation.
