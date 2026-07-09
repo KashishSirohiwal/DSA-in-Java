@@ -1,4 +1,4 @@
-package Recursion.Practice2;
+package Recursion.LeetCode;
 
 /*
 Problem: Generate Gray Code Sequence
@@ -37,7 +37,7 @@ Time Complexity: O(2^n) - We generate 2^n Gray codes, and each code is generated
 Space Complexity: O(2^n) - We store 2^n Gray codes in the result list.
 */
 
-public class GrayCode {
+public class LC89_GrayCode {
     public List<Integer> grayCode(int n) {
         List<Integer> result = new ArrayList<>();
         generateGrayCode(n, 0, result);
