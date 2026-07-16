@@ -83,28 +83,40 @@ My focus is on:
 * Recursion on Arrays
 * Backtracking Fundamentals
 
+### Linked Lists
+
+* Singly Linked Lists
+* Node and Reference Fundamentals
+* Traversal and Searching
+* Insertion and Deletion Operations
+* Pointer Manipulation
+* Two Pointer Techniques
+* Linked List Reversal
+* Cycle Detection
 ---
 
 ## Current Focus
 
-Currently exploring recursion and recursive problem-solving techniques.
+Currently exploring Linked Lists and pointer-based problem-solving in Java.
 
 Key areas include:
 
-* Recursive thinking
-* Recursion trees
-* Return-based recursion
-* Void recursion
-* Backtracking fundamentals
+* Node and reference fundamentals
+* Singly, Doubly, and Circular Linked Lists
+* Linked List traversal and searching
+* Insertion and deletion operations
+* Pointer manipulation and reference management
+* Slow and fast pointer techniques
+* Linked List reversal and in-place modification
+* Cycle detection and Linked List problem-solving patterns
 * Time and space complexity analysis
 
-The concepts learned here will serve as a foundation for future topics such as Trees, Graphs, Backtracking, and Dynamic Programming.
+The focus is on developing a strong understanding of node-based data structures, reference manipulation, and pointer reasoning. These concepts will serve as an important foundation for advanced data structures such as Trees and Graphs.
 
 ---
 
 ## Upcoming Areas
 
-* Linked Lists
 * Stack
 * Queue
 * Trees
@@ -131,6 +143,7 @@ Java_Built_In_Sorting/
 Binary_Search/
 Hashing/
 Recursion/
+Linked_List/
 ```
 
 Each directory contains implementations, practice problems, and topic-specific exercises.

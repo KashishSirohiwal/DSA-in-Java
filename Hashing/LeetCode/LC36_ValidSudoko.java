@@ -16,6 +16,8 @@ Space Complexity: O(1) - The space used for the HashSet is also constant since t
 of unique entries is limited to 81 (9 rows * 9 columns).
 */
 
+import java.util.HashSet;
+
 public class LC36_ValidSudoko {
     public boolean isValidSudoku(char[][] board) {
         // Create sets to track seen numbers in rows, columns, and boxes
@@ -31,7 +33,8 @@ public class LC36_ValidSudoko {
                 // If the cell is empty (represented by '.'), skip it
                 if (num == '.') continue;
                 
-                // Check if the number has already been seen in the current row, column, or 3x3 box                if (!seen.add(num + " in row " + i) ||
+                // Check if the number has already been seen in the current row, column, or 3x3 box
+                if (!seen.add(num + " in row " + i) ||
                     !seen.add(num + " in col " + j) ||
                     !seen.add(num + " in box " + i/3 + "-" + j/3)) {
                     return false;
