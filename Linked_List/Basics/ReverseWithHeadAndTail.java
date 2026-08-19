@@ -66,8 +66,6 @@ public class ReverseWithHeadAndTail {
 
     public static void main(String[] args) {
 
-        // Creating:
-        // 1 → 2 → 3 → 4 → 5 → null
         Node head = new Node(1);
         head.next = new Node(2);
         head.next.next = new Node(3);
